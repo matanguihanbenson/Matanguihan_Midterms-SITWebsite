@@ -124,7 +124,7 @@ body{
     background-color: #500020;
     color: white;
     height: 500px;
-    padding: 20px 10px;
+    padding: 20px 5px;
     margin: 10px 10px;
 }
 .card h5,h6,p{
@@ -378,8 +378,9 @@ body{
     .awards{
         height: max-content;
     }
-    .card .one .faculty-img-naluz,.card .one .faculty-img-casiple,.card .one .faculty-img-navarro,.card .one .faculty-img-grimaldo{
+    .card .one .faculty-img-naluz img,.card .one .faculty-img-casiple img,.card .one .faculty-img-navarro img,.card .one .faculty-img-grimaldo img{
         height: 70px;
+        width: 70px;
     }
     .lead-head{
         font-size: 1.4rem;
