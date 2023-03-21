@@ -6,7 +6,6 @@ body{
     font-size: 18px;
     font-family: inter;
     height: 100vh;
-    overflow-x: hidden !important;
 }
 /* sit navbar top */
 .navbar{
@@ -17,7 +16,7 @@ body{
     outline: none;
 }
 .navbar-toggler{
-    padding: 5px !important;
+    padding: 5px;
 }
 .navbar-brand img{
     width: 50px;
@@ -32,7 +31,7 @@ body{
 .nav-link{
     font-weight: bold;
     color: white !important;
-    margin-left: 30px !important;
+    margin-left: 30px;
 }
 /*sit banner*/
 .sit-banner-container{
@@ -40,7 +39,7 @@ body{
     height: 100%;
 }
 .sit-banner{
-    height: 100% !important;
+    height: 100%;
     width: 100%;
     background-image: linear-gradient(to bottom, black, rgba(253,4,127,0.6)), url(../img/year-end.jpg);
     background-size: cover;
@@ -49,7 +48,7 @@ body{
     display: flex;
     align-items: center;
     color: white;
-    padding-top: 50px !important;
+    padding-top: 50px;
     background-position: center;
 }
 .sit-banner h1{
@@ -71,14 +70,14 @@ body{
 .sit-banner a.btn{
     font-weight: bold;
     cursor: pointer;
-    padding: 10px !important;
+    padding: 10px;
 }
 
 /*sit program*/
 .sit-program{
     height: max-content;
     background-color: #fff;
-    padding: 70px 0px !important;
+    padding: 70px 0px;
     position: relative;
     
 }
@@ -92,7 +91,7 @@ body{
     height: max-content;
     position: relative;
     color: white;
-    padding: 40px 0 !important;
+    padding: 40px 0;
     
 }
 .mission-vision h1{
@@ -117,7 +116,7 @@ body{
 .dean-faculty{
     height: max-content;
     background-color: #fff;
-    padding: 80px 10px !important;
+    padding: 80px 10px;
 }
 
 /*card*/
@@ -125,12 +124,13 @@ body{
     background-color: #500020;
     color: white;
     height: 500px;
-    padding: 20px 10px !important;
-    margin: 10px 10px !important;
+    padding: 20px 10px;
+    margin: 10px 10px;
 }
 .card h5,h6,p{
     display: inline-block;
 }
+
 .card .one{
     display: flex;
     flex-direction: row;
@@ -155,11 +155,40 @@ body{
     background-color: transparent !important;
 }
 
-.card .one img{
-    width: 70px;
+.card .one .faculty-img-grimaldo{
+    background: url(../img/mam-sheryll.jpg);
+    background-position: top;
+    background-size: cover;
+    width: 90px;
+    border-radius: 100%;
+    height: 70px;
+}
+.card .one .faculty-img-naluz{
+    background: url(../img/mam-chenee.jpg);
+    background-position: top;
+    background-size: cover;
+    width: 90px;
+    border-radius: 100%;
+    height: 70px;
+}
+.card .one .faculty-img-casiple{
+    background: url(../img/mam-lei.jpg);
+    background-position: top;
+    background-size: cover;
+    width: 90px;
+    border-radius: 100%;
+    height: 70px;
+}
+.card .one .faculty-img-navarro{
+    background: url(../img/mam-greys.jpg);
+    background-position: top;
+    background-size: cover;
+    width: 90px;
+    border-radius: 100%;
+    height: 70px;
 }
 .card .two{
-    padding: 10px 0 !important;
+    padding: 10px 0;
 }
 
 /*other styles*/
@@ -215,20 +244,20 @@ body{
 .equipment-facility{
     background-color: rgba(253,4,127);
     height: max-content;
-    padding: 50px 0 !important;
+    padding: 50px 0;
 }
 .equipment-facility h1{
     width: 12ch;
 }
 .carousel-caption{
     background-color: rgba(0,0,0,.5);
-    padding: 10px !important;
+    padding: 10px;
 }
 .carousel-item img{
     height: 400px;
 }
 .carousel-indicators li{
-    margin: 3px !important;
+    margin: 3px;
 }
 .footer{
     background-color: #500020;
@@ -255,7 +284,7 @@ body{
 .footer .logo h5{
     color: white;
     font-weight: bold;
-    margin-left: 20px !important;
+    margin-left: 20px;
     width: 22ch;
 }
 .footer .contact p{
@@ -288,23 +317,39 @@ body{
         padding: 20px !important;
         background-color: #000;
     }
+    .nav-link{
+        font-size: 1rem;
+        margin-left: 20px !important;
+    }
     .sit-banner{
         padding: 20px !important;
+    }
+    .sit-banner a.btn{
+        padding: 10px !important;
     }
     .sit-program{
         padding: 20px !important;
     }
     .sit-program p{
         width: 100%;
+        
+    }
+    .carousel-caption{
+        background-color: rgba(0,0,0,.5);
+        padding: 10px !important;
+        display: block !important;
+        
     }
     .mission-vision{
         padding: 40px 20px !important;
-        height:350px;
+        height:max-content;
+    }
+    .carousel-indicators li{
+        margin: 3px !important;
     }
     .mission-vision .vision{
         text-align: left;
-        align-items: start;
-        justify-content: start;
+        justify-content: center;
     }
     .dean-faculty{
         padding: 40px 20px !important;
