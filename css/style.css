@@ -6,6 +6,7 @@ body{
     font-size: 18px;
     font-family: inter;
     height: 100vh;
+    overflow-x: hidden;
 }
 /* sit navbar top */
 .navbar{
@@ -44,6 +45,7 @@ body{
     align-items: center;
     color: white;
     padding-top: 50px;
+    background-position: center;
 }
 .sit-banner h1{
     font-size: 4rem;
@@ -256,8 +258,7 @@ body{
 @media (max-width:800px) {
     body{
         font-size: 16px;
-    }
-    .mission-vision p{
+        overflow-x: hidden;
     }
     .vision{
         justify-content: start;
@@ -298,18 +299,6 @@ body{
 
 
 /* media queries */
-
-@media (max-width: 300px){
-    body{
-        font-size: 10px;
-    }
-    .sit-banner h1{
-        font-size: 5rem;
-    }
-    .lead-body{
-        font-size: 1rem;
-    }
-}
 @media (max-width:600px) {
     body{
         font-size: 14px !important;
@@ -373,8 +362,23 @@ body{
     }
 }
 
-@media(width:393) {
+@media only screen and (max-width: 767px) {
+
+    body{
+        font-size: 12px;
+        overflow-x: hidden;
+    }
+    .sit-banner h1{
+        font-size: 2.4rem;
+    }
+    .sit-banner h4{
+        font-size: 1rem !important;
+    }
+    .lead-head{
+        font-size: 1.4rem;
+    }
     .lead-body{
-        font-size: 1rem;
+        font-size: 1.8rem !important;
+        max-width: 16ch;
     }
 }
