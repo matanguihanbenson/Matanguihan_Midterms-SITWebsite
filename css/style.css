@@ -2,11 +2,17 @@
     font-family: adelia;
     src: url(../fonts/adelia.ttf);
 }
+*{
+    margin: 0 !important;
+}
 body{
     font-size: 18px;
     font-family: inter;
     height: 100vh;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
 }
 /* sit navbar top */
 .navbar{
@@ -27,7 +33,7 @@ body{
 .nav-link{
     font-weight: bold;
     color: white !important;
-    margin-left: 20px;
+    margin-left: 30px !important;
 }
 /*sit banner*/
 .sit-banner-container{
@@ -44,7 +50,7 @@ body{
     display: flex;
     align-items: center;
     color: white;
-    padding-top: 50px;
+    padding-top: 50px !important;
     background-position: center;
 }
 .sit-banner h1{
@@ -56,7 +62,8 @@ body{
 }
 .sit-banner h3{
     font-weight: 700;
-    line-height: 5px;
+    line-height: 10px;
+
 }
 .sit-banner h4{
     font-weight: bold;
@@ -65,13 +72,14 @@ body{
 .sit-banner a.btn{
     font-weight: bold;
     cursor: pointer;
+    padding: 10px !important;
 }
 
 /*sit program*/
 .sit-program{
     height: 100%;
     background-color: #fff;
-    padding: 70px 0;
+    padding: 70px 0px !important;
 }
 .sit-program p{
     width: 58ch;
@@ -83,7 +91,7 @@ body{
     height: max-content;
     position: relative;
     color: white;
-    padding: 50px 0;
+    padding: 40px 0;
     
 }
 .mission-vision h1{
@@ -115,7 +123,7 @@ body{
 .card{
     background-color: #500020;
     color: white;
-    margin-top: 10px;
+    margin-top: 10px !important;
     height: 500px;
     padding: 20px 0;
 }
@@ -124,6 +132,9 @@ body{
     flex-direction: row;
     align-items: center;
     height: 100px;
+}
+.two{
+    font-size: 1rem;
 }
 .card h6{
     font-weight: 700;
@@ -134,7 +145,6 @@ body{
 }
 .card .one p{
     font-weight: 600;
-    font-size: .9rem;
     line-height: 0;
 }
 .card ul li{
@@ -167,7 +177,7 @@ body{
 .awards{
     height: 100%;
     background-color: #fff;
-    padding: 50px 0;
+    padding: 50px 20px;
     color: black;
 
 }
@@ -373,6 +383,9 @@ body{
     }
     .sit-banner h4{
         font-size: 1rem !important;
+    }
+    .sit-banner h3{
+        margin-bottom: 10px !important;
     }
     .lead-head{
         font-size: 1.4rem;
