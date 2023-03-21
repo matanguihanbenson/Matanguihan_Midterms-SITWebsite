@@ -1,0 +1,380 @@
+@font-face {
+    font-family: adelia;
+    src: url(../fonts/adelia.ttf);
+}
+body{
+    font-size: 18px;
+    font-family: inter;
+    height: 100vh;
+}
+/* sit navbar top */
+.navbar{
+    z-index: 999;
+    width: 100%;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+.navbar-brand img{
+    width: 50px;
+    border-radius: 100%;
+}
+.navbar-collapse{
+    text-align: right;
+}
+
+.nav-link{
+    font-weight: bold;
+    color: white !important;
+    margin-left: 20px;
+}
+/*sit banner*/
+.sit-banner-container{
+    position: relative;
+    height: 100%;
+}
+.sit-banner{
+    height: 100% !important;
+    width: 100%;
+    background-image: linear-gradient(to bottom, black, rgba(253,4,127,0.6)), url(../img/year-end.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 50px;
+}
+.sit-banner h1{
+    font-size: 4rem;
+    width: 12ch;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+.sit-banner h3{
+    font-weight: 700;
+    line-height: 5px;
+}
+.sit-banner h4{
+    font-weight: bold;
+    font-family: adelia;
+}
+.sit-banner a.btn{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*sit program*/
+.sit-program{
+    height: 100%;
+    background-color: #fff;
+    padding: 70px 0;
+}
+.sit-program p{
+    width: 58ch;
+}
+
+/*mission-vision*/
+.mission-vision{
+    background-color: rgb(253,4,127);
+    height: max-content;
+    position: relative;
+    color: white;
+    padding: 50px 0;
+    
+}
+.mission-vision h1{
+    color: white;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.vision{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: right;
+    min-height: 280px;
+}
+/*dean and faculty */
+
+.dean-faculty{
+    height: max-content;
+    background-color: #fff;
+    padding: 80px 0px;
+}
+
+/*card*/
+.card{
+    background-color: #500020;
+    color: white;
+    margin-top: 10px;
+    height: 500px;
+    padding: 20px 0;
+}
+.card .one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+}
+.card h6{
+    font-weight: 700;
+}
+.card .one h5{
+    font-weight: 700;
+    line-height: 0;
+}
+.card .one p{
+    font-weight: 600;
+    font-size: .9rem;
+    line-height: 0;
+}
+.card ul li{
+    background-color: transparent !important;
+}
+
+.card .one img{
+    width: 70px;
+}
+.card .two{
+    padding: 10px 0;
+}
+
+/*other styles*/
+.lead-head{
+
+    font-weight: 700;
+    color: #500020;
+    font-family: adelia;
+    letter-spacing: 2px;
+}
+.lead-body{
+    font-weight: 900;
+    font-size: 3.2rem;
+    width: 22ch;
+    color: black;
+}
+
+/*awards*/
+.awards{
+    height: 100%;
+    background-color: #fff;
+    padding: 50px 0;
+    color: black;
+
+}
+.awards div h1.main-lead-b{
+    width: 13ch;
+}
+.awards i{
+    font-size: 50px;
+    color: #500020;
+
+}
+.awards h3{
+    max-width: 60ch;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+.awards h3 i{
+    font-size: 1rem;
+    margin-right: 10px;
+}
+.awards h3 span{
+    color: #500020;
+    font-weight: bold;
+}
+.awards em{
+    font-weight: bold;
+}
+
+/*equipment facility*/
+.equipment-facility{
+    background-color: rgba(253,4,127);
+    height: max-content;
+    padding: 50px 0;
+}
+.equipment-facility h1{
+    width: 12ch;
+}
+.carousel-caption{
+    background-color: rgba(0,0,0,.5);
+}
+.carousel-item img{
+    height: 400px;
+}
+
+.footer{
+    background-color: #500020;
+    height: max-content;
+    width: 100%;
+    padding: 0 50px;
+}
+.footer img{
+    width: 80px;
+    border-radius: 50%;
+
+}
+.footer .logo{
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+.footer .footer-text{
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-weight: 500;
+}
+.footer .logo h5{
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+    width: 22ch;
+}
+.footer .contact p{
+    color: white;
+}
+.footer .contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    padding-top: 20px;
+}
+.footer .contact h5{
+    color:white;
+    font-weight: bold;
+
+}
+@media (max-width:800px) {
+    body{
+        font-size: 16px;
+    }
+    .mission-vision p{
+    }
+    .vision{
+        justify-content: start;
+        text-align: left;
+    }
+    .sit-banner h1{
+        font-size: 3rem;
+    }
+    .sit-program h1{
+        font-size: 2.8rem;
+    }
+    .sit-program p{
+        width: 100%;
+    }
+    .lead-body{
+        font-size: 2rem;
+    }
+    .footer{
+        text-align: center;
+        padding: 50px 0;
+        height: max-content;
+    }
+    .footer div .logo,.contact{
+        height: 100px;
+    }
+    .footer .logo{
+        flex-direction: column;
+        
+    }
+    .footer .logo h5{
+        margin: 0;
+    }
+    
+    .footer .logo img{
+        margin-bottom: 10px;
+    }
+}
+
+
+/* media queries */
+
+@media (max-width: 300px){
+    body{
+        font-size: 10px;
+    }
+    .sit-banner h1{
+        font-size: 5rem;
+    }
+    .lead-body{
+        font-size: 1rem;
+    }
+}
+@media (max-width:600px) {
+    body{
+        font-size: 14px !important;
+        overflow-x: hidden;
+    }
+    .sit-banner{
+        background-position: center;
+    }
+    .sit-banner h1{
+        font-size: 3rem;
+    }
+    .sit-banner h3{
+        font-size: 1.5rem;
+    }
+    .sit-banner h4{
+        font-size: 1rem;
+    }
+
+    .sit-program h1{
+        font-size: 2rem;
+    }
+    .sit-program h3{
+        font-size: 1.5rem;
+    }
+    .sit-program p{
+        width: 100%;
+    }
+    .lead-body{
+        font-size: 2rem;
+    }
+    .lead-head{
+        font-size: 1.5rem;
+
+    }
+    .vision{
+        text-align: left !important;
+        justify-content: start;
+        
+    }
+    .navbar{
+        background-color: #000;
+    }
+    .footer{
+        text-align: center;
+        padding: 50px 0;
+        height: max-content;
+    }
+    .footer div .logo,.contact{
+        height: 100px;
+    }
+    .footer .logo{
+        flex-direction: column;
+        
+    }
+    .footer .logo h5{
+        margin: 0;
+    }
+    
+    .footer .logo img{
+        margin-bottom: 10px;
+    }
+}
+
+@media(width:393) {
+    .lead-body{
+        font-size: 1rem;
+    }
+}
