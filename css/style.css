@@ -155,37 +155,35 @@ body{
     background-color: transparent !important;
 }
 
-.card .one .faculty-img-grimaldo{
-    background: url(../img/mam-sheryll.jpg);
-    background-position: top;
-    background-size: cover;
-    width: 90px;
-    border-radius: 100%;
+.card .one .faculty-img-grimaldo img{
+    max-width: 80px;
     height: 70px;
+    aspect-ratio: 16/9;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
 }
-.card .one .faculty-img-naluz{
-    background: url(../img/mam-chenee.jpg);
-    background-position: top;
-    background-size: cover;
-    width: 90px;
-    border-radius: 100%;
+.card .one .faculty-img-naluz img{
+    max-width: 80px;
     height: 70px;
+    aspect-ratio: 16/9;
+    border-radius: 50%;
+    object-fit: fill;
 }
-.card .one .faculty-img-casiple{
-    background: url(../img/mam-lei.jpg);
-    background-position: top;
-    background-size: cover;
-    width: 90px;
-    border-radius: 100%;
+.card .one .faculty-img-casiple img{
+    max-width: 80px;
     height: 70px;
+    aspect-ratio: 16/9;
+    border-radius: 50%;
+    object-fit: fill;
 }
-.card .one .faculty-img-navarro{
-    background: url(../img/mam-greys.jpg);
-    background-position: top;
-    background-size: cover;
-    width: 90px;
-    border-radius: 100%;
+.card .one .faculty-img-navarro img{
+    max-width: 80px;
     height: 70px;
+    aspect-ratio: 16/9;
+    border-radius: 50%;
+    object-fit: fill;
+  
 }
 .card .two{
     padding: 10px 0;
@@ -379,6 +377,9 @@ body{
     }
     .awards{
         height: max-content;
+    }
+    .card .one .faculty-img-naluz,.card .one .faculty-img-casiple,.card .one .faculty-img-navarro,.card .one .faculty-img-grimaldo{
+        height: 70px;
     }
     .lead-head{
         font-size: 1.4rem;
